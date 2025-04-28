@@ -5,7 +5,7 @@ This assignment involves generating an image and adding Gaussian noise to it. Th
 ## Task Description
 
 1. **Create an image g(x,y)** where all the pixels have the same gray value of 100. Display the image g(x,y).
-2. **Generate Gaussian noise n(x,y)** using the algorithm shown in the next page.
+2. **Generate Gaussian noise n(x,y)** by using the Box-Muller transform.
 3. **Create a noisy image** \( f(x,y) = g(x,y) + n(x,y) \) and display it.
 4. **Display the histogram h(i)** of the noisy image f(x,y).
 
