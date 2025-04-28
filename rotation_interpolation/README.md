@@ -1,26 +1,26 @@
 # Rotation with Nearest Neighbor and Bilinear Interpolation
 
-本作業實作影像旋轉功能，並比較最近鄰插值（Nearest Neighbor）與雙線性插值（Bilinear Interpolation）在旋轉後的效果差異。
+This assignment implements image rotation and compares the effects of Nearest Neighbor and Bilinear Interpolation after rotation.
 
-## 結果展示
+## Result Demonstration
 
-| 原始影像 | 最近鄰旋轉 | 雙線性旋轉 |
-|----------|------------|------------|
+| Original Image | Nearest Neighbor Rotation | Bilinear Rotation |
+|----------------|---------------------------|-------------------|
 | ![original](original.jpg) | ![nearest](nearest_rotated.jpg) | ![bilinear](bilinear_rotated.jpg) |
 
-## 結果觀察
+## Observations
 
-最近鄰插值旋轉後只選取最接近的像素值，因此影像邊緣會出現鋸齒狀，整體畫面保留明確的黑白分界。  
-雙線性插值則會根據周圍四個像素進行加權平均，因此邊緣會稍微模糊，但視覺上較平滑，鋸齒較少。
+The Nearest Neighbor interpolation only selects the closest pixel value, which causes jagged edges in the image, and the overall image retains a clear black-and-white boundary.  
+Bilinear interpolation, on the other hand, performs a weighted average based on the surrounding four pixels, resulting in slightly blurred edges, but with a smoother appearance and fewer jagged edges.
 
-## 執行方式
+## How to Run
 
-請先安裝必要套件：
+First, install the necessary dependencies:
 
 ```bash
 pip install numpy opencv-python
 ```
-執行程式：
+Then, run the program：
 
 ```bash
 python3 hw4.py
