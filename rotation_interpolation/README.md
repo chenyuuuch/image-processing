@@ -18,7 +18,7 @@ Bilinear interpolation, on the other hand, performs a weighted average based on 
 First, install the necessary dependencies:
 
 ```bash
-pip install numpy opencv-python
+pip3 install numpy opencv-python
 ```
 Then, run the program：
 
