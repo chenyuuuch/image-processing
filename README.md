@@ -4,3 +4,4 @@ This repository contains several of my assignments from an Image Processing cour
 ## Assignment List
 
 - [rotation_interpolation](./rotation_interpolation/)
+- [gaussian_noise](./gaussian_noise/)
