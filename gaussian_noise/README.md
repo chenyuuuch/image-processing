@@ -1,4 +1,4 @@
-# HW6 – Adding Gaussian Noise
+# Adding Gaussian Noise
 
 This assignment involves generating an image and adding Gaussian noise to it. The task is divided into several steps:
 
